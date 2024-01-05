@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>寵物</title>
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/X-UA-Compatible">
+    <link rel="stylesheet" href="css/dodo.css">
+    <link rel='stylesheet' href="css/test.css">
+    <link rel='stylesheet' href="css/normalize.css">
+    <link rel="stylesheet" href="css/lativ_demo.css" />
+    <style>
+        
+    </style>
+      <div class="cursor"></div>
+      <div class="shapes">
+          <div class="shape shape-1"></div>
+      </div>
+  
+      <div class="home custom-container">
+          <div class="text-container">
+              <h1 class="section-title">寵物</h1>
+              <h1 class="section-title">紅龜粿</h1>
+
+          </div>
+      </div>
+      
+      </section>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+      <script>
+      document.body.addEventListener("mousemove", evt => {
+          const mouseX = evt.clientX;
+          const mouseY = evt.clientY;
+      
+          gsap.set(".cursor", { x: mouseX, y: mouseY });
+          gsap.to(".shape", { x: mouseX, y: mouseY, stagger: -0.1 });
+      });
+      </script>
+</head>
+<body>
+    <div class="box">
+       
+        <div class="content">
+            <div class="photo">
+                <img src="image/hg.jpg" />
+            </div>
+    <nav>
+        <ul id="main_menu">
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="men.html">電玩</a></li>
+            <li><a href="women.html">書籍</a></li>
+            <li><a href="kids.html">動畫</a></li>
+            <li><a href="sports.html">寵物</a></li>
+        </ul>
+    </nav>
+    
+</body>
+</html>
