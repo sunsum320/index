@@ -1,7 +1,7 @@
 
 .cursor {
     position: fixed;
-    background: rgb(206, 163, 69);
+    background: rgb(246, 164, 13);
     width: 20px;
     height: 20px;
     margin: -10px 0 0 -10px;
@@ -29,7 +29,7 @@
 
 
 .section-title {
-    color: #e79c9c;
+    color: #f48383;
     font-size: 6rem;
     font-weight: 677;
     margin: -20px auto;

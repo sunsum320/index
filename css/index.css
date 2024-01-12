@@ -248,7 +248,7 @@
   
   button:-moz-focusring,
   input:-moz-focusring {
-    outline: 1px dotted ButtonText;
+    outline: 1px dotted brown ;
   }
   
   
@@ -302,3 +302,28 @@
   [type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
   }
+
+  .box1 {
+    height: 80px;
+    background: lightgreen;
+    text-align: center;
+}
+
+@media(min-width: 540px) {
+    .box1 {
+        background: lightyellow;
+    }
+}
+
+@media(min-width: 768px) {
+    .box1 {
+        background: orange;
+    }
+}
+
+@media(min-width: 920px) {
+    .box1 {
+        background: lightpink;
+    }
+}
+
